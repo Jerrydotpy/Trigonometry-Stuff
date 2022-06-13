@@ -17,18 +17,10 @@ class NoSideToBeFound(Exception):
 
         
 def SideName(side : S):
-    if side == 'opposite' or 'o':
-        return 'o'
-    elif side == 'adjacent' or 'a':
-        return 'a'
-    elif side == 'hypotenuse' or 'h':
-        return 'h'
+    return 'o'
 
 def check_none(item):
-    if item == '':
-        return None
-    else:
-        return item
+    return None if item == '' else item
 
 
         
