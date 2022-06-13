@@ -90,5 +90,5 @@ class Main:
 Main()
 
 #sin = 'opposite/hypotenuse'
-#cose = 'adjacent/hypotenuse'
-#tane = 'opposite/adjacent' 
+#cos = 'adjacent/hypotenuse'
+#tan = 'opposite/adjacent' 
