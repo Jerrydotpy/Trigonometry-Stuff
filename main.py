@@ -25,10 +25,7 @@ def SideName(side : S):
         return 'h'
 
 def check_none(item):
-    if item == '':
-        return None
-    else:
-        return item
+    return None if item == '' else item
 
 
         
